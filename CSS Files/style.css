@@ -54,9 +54,15 @@
 /* grocery cards */
 
 .grocery-card{
-    box-shadow: 0px 0px 15px rgb(216, 211, 211);
+    box-shadow: 0px 0px 15px rgb(216, 211, 211) !important;
     transition: 1s;
-    height: 57vh !important;
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+}
+.grocery-card img{
+    width: 30vh;
+    height: 30vh;
 }
 .grocery-card:hover{
     transform: scale(1.07);
