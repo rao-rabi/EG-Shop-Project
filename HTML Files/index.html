@@ -1,0 +1,1065 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EG Shop</title>
+    <link rel="stylesheet" href="/CSS Files/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg ps-md-5 pe-md-5">
+        <div class="container-fluid">
+            <div>
+                <a class="navbar-brand" href="#"><img class="img-fluid w-50 object-fit-contain"
+                        src="/Assets/eg-shop.png" alt=""></a>
+            </div>
+
+            <!-- navlinks -->
+
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav m-auto pe-5 lead fw-medium">
+                    <li class="nav-item">
+                        <a class="nav-link homenav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link homenav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link homenav-link" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link homenav-link" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link homenav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-flex justify-content-around align-items-center">
+                <div class="dropdown me-3">
+                    <div data-bs-toggle="dropdown" aria-expanded="false">
+                        <span class="navbar-toggler-icon"></span>
+                    </div>
+                    <ul class="dropdown-menu mt-3 main-searchbar border-0">
+                        <li><a class="dropdown-item lead fw-medium pt-3" href="my_account.html">My Account</a></li>
+                        <hr>
+                        <li><a class="dropdown-item lead fw-medium" href="about.html">About</a></li>
+                        <hr>
+                        <li><a class="dropdown-item lead fw-medium" href="products.html">Products</a></li>
+                        <hr>
+                        <li><a class="dropdown-item lead fw-medium" href="contact.html">Contact</a></li>
+                        <hr>
+                        <li><a class="dropdown-item lead fw-medium" href="checkout.html">Checkout</a></li>
+                        <hr>
+                        <li><a class="dropdown-item lead fw-medium" href="orderdetails.html">Order Details</a></li>
+                    </ul>
+                </div>
+                <div class="ms-lg-4 ms-3 pt-3 me-3">
+                    <p class="fs-5 fw-bold">ANUM</p>
+                </div>
+
+                <!-- cart -->
+
+                <a class="text-black" href="cart.html">
+                    <div class="ms-lg-4 position-relative me-3">
+                        <i class="bi bi-cart3 fs-3 nav-icon"></i>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark">
+                            2
+                            <span class="visually-hidden">unread messages</span>
+                        </span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- hero-section -->
+
+    <div class="container-fluid hero-bgimg">
+        <div class="ms-md-5 col-xl-5 col-lg-6 col-md-7 col-12">
+            <p class="display-4 fw-bold">Bengal Vegetable Farm Organic 100%</p>
+            <p class="lead fw-medium">Buy the Best Products From Us</p>
+            <button type="button" class="btn btn-success rounded-pill ps-4 pe-4 p-2">SHOP NOW</button>
+        </div>
+    </div>
+
+    <!-- search section -->
+
+    <div class="container mt-5">
+        <div class="main-searchbar rounded-pill">
+            <form class="d-flex justify-content-between" role="search">
+                <input class="p-3 border-0 w-100 rounded-pill" type="search" placeholder="Search Items Here..."
+                    aria-label="Search">
+                <button class="btn btn-success p-2 m-1 ps-5 pe-5 rounded-pill fs-5 fw-semibold"
+                    type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Products Section -->
+
+    <div class="container-fluid mt-5">
+        <p class="text-center display-5 fw-medium">What do you looking for?</p>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container mt-4">
+                        <div class="row gy-3 row-cols-xl-6 row-cols-md-3 row-cols-1 d-flex flex-wrap mb-1">
+                            <!-- fruits card -->
+                            <div class="col">
+                                <div class="card products-card border-0 text-center p-2 pb-0">
+                                    <div class="card-img-top">
+                                        <img class="img-fluid w-50" src="/Assets/cards Icons/cherry.png" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="fs-5 fw-semibold mb-0">FRESH <br>FRUITS</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- vegetables card -->
+                            <div class="col">
+                                <div class="card products-card border-0 text-center p-2 pb-0">
+                                    <div class="card-img-top">
+                                        <img class="img-fluid w-50" src="/Assets/cards Icons/diet.png" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="fs-5 fw-semibold mb-0">FRESH <br>VEGETABLES</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- nuts card -->
+                            <div class="col">
+                                <div class="card products-card border-0 text-center p-2 pb-0">
+                                    <div class="card-img-top">
+                                        <img class="img-fluid w-50" src="/Assets/cards Icons/cashew.png" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="fs-5 fw-semibold pb-2 pt-1">NUTS</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- bakery card -->
+                            <div class="col">
+                                <div class="card products-card border-0 text-center p-2 pb-0">
+                                    <div class="card-img-top">
+                                        <img class="img-fluid w-50" src="/Assets/cards Icons/cupcake.png" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="fs-5 fw-semibold pb-2 pt-1">BAKERY</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- drinks card -->
+                            <div class="col">
+                                <div class="card products-card border-0 text-center p-2 pb-0">
+                                    <div class="card-img-top">
+                                        <img class="img-fluid w-50" src="/Assets/cards Icons/cheers.png" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="fs-5 fw-semibold pb-2 pt-1">DRINKS</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- oils card -->
+                            <div class="col">
+                                <div class="card products-card border-0 text-center p-2 pb-0">
+                                    <div class="card-img-top">
+                                        <img class="img-fluid w-50" src="/Assets/cards Icons/olive-oil.png" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="fs-5 fw-semibold mb-0">FRESH <br>OILS</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container mt-4">
+                        <div class="row gy-3 row-cols-xl-6 row-cols-md-3 row-cols-1 d-flex flex-wrap mb-1">
+                            <!-- fruits card -->
+                            <div class="col">
+                                <div class="card products-card border-0 text-center p-2 pb-0">
+                                    <div class="card-img-top">
+                                        <img class="img-fluid w-50" src="/Assets/cards Icons/cherry.png" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="fs-5 fw-semibold mb-0">FRESH <br>FRUITS</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- vegetables card -->
+                            <div class="col">
+                                <div class="card products-card border-0 text-center p-2 pb-0">
+                                    <div class="card-img-top">
+                                        <img class="img-fluid w-50" src="/Assets/cards Icons/diet.png" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="fs-5 fw-semibold mb-0">FRESH <br>VEGETABLES</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- nuts card -->
+                            <div class="col">
+                                <div class="card products-card border-0 text-center p-2 pb-0">
+                                    <div class="card-img-top">
+                                        <img class="img-fluid w-50" src="/Assets/cards Icons/cashew.png" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="fs-5 fw-semibold pb-2 pt-1">NUTS</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- bakery card -->
+                            <div class="col">
+                                <div class="card products-card border-0 text-center p-2 pb-0">
+                                    <div class="card-img-top">
+                                        <img class="img-fluid w-50" src="/Assets/cards Icons/cupcake.png" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="fs-5 fw-semibold pb-2 pt-1">BAKERY</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- drinks card -->
+                            <div class="col">
+                                <div class="card products-card border-0 text-center p-2 pb-0">
+                                    <div class="card-img-top">
+                                        <img class="img-fluid w-50" src="/Assets/cards Icons/cheers.png" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="fs-5 fw-semibold pb-2 pt-1">DRINKS</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- oils card -->
+                            <div class="col">
+                                <div class="card products-card border-0 text-center p-2 pb-0">
+                                    <div class="card-img-top">
+                                        <img class="img-fluid w-50" src="/Assets/cards Icons/olive-oil.png" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="fs-5 fw-semibold mb-0">FRESH <br>OILS</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container mt-4">
+                        <div class="row gy-3 row-cols-xl-6 row-cols-md-3 row-cols-1 d-flex flex-wrap mb-1">
+                            <!-- fruits card -->
+                            <div class="col">
+                                <div class="card products-card border-0 text-center p-2 pb-0">
+                                    <div class="card-img-top">
+                                        <img class="img-fluid w-50" src="/Assets/cards Icons/cherry.png" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="fs-5 fw-semibold mb-0">FRESH <br>FRUITS</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- vegetables card -->
+                            <div class="col">
+                                <div class="card products-card border-0 text-center p-2 pb-0">
+                                    <div class="card-img-top">
+                                        <img class="img-fluid w-50" src="/Assets/cards Icons/diet.png" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="fs-5 fw-semibold mb-0">FRESH <br>VEGETABLES</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- nuts card -->
+                            <div class="col">
+                                <div class="card products-card border-0 text-center p-2 pb-0">
+                                    <div class="card-img-top">
+                                        <img class="img-fluid w-50" src="/Assets/cards Icons/cashew.png" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="fs-5 fw-semibold pb-2 pt-1">NUTS</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- bakery card -->
+                            <div class="col">
+                                <div class="card products-card border-0 text-center p-2 pb-0">
+                                    <div class="card-img-top">
+                                        <img class="img-fluid w-50" src="/Assets/cards Icons/cupcake.png" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="fs-5 fw-semibold pb-2 pt-1">BAKERY</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- drinks card -->
+                            <div class="col">
+                                <div class="card products-card border-0 text-center p-2 pb-0">
+                                    <div class="card-img-top">
+                                        <img class="img-fluid w-50" src="/Assets/cards Icons/cheers.png" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="fs-5 fw-semibold pb-2 pt-1">DRINKS</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- oils card -->
+                            <div class="col">
+                                <div class="card products-card border-0 text-center p-2 pb-0">
+                                    <div class="card-img-top">
+                                        <img class="img-fluid w-50" src="/Assets/cards Icons/olive-oil.png" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="fs-5 fw-semibold mb-0">FRESH <br>OILS</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span aria-hidden="true"><i
+                        class="bi bi-chevron-left border-0 p-2 fs-4 rounded-circle products-card text-black"></i></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span aria-hidden="true"><i
+                        class="bi bi-chevron-right border-0 p-2 fs-4 rounded-circle products-card text-black"></i></span>
+            </button>
+        </div>
+    </div>
+
+    <!-- vegetables -->
+
+    <div class="container-fluid p-5 mt-5">
+        <div class="d-flex justify-content-center">
+            <img class="img-fluid object-fit-contain rounded-3 me-4" style="width:28vw"
+                src="/Assets/variety-vegetables-are-table.jpg" alt="">
+            <img class="img-fluid object-fit-contain rounded-3 me-4" style="width: 28vw"
+                src="/Assets/close-up-spices-vegetables-wood.jpg" alt="">
+            <img class="img-fluid object-fit-contain rounded-3 " style="width:28vw"
+                src="/Assets/fresh-apples-shopping-mesh-bag-with-branch-apples.jpg" alt="">
+        </div>
+    </div>
+
+    <!-- Grocery -->
+    <div class="container-fluid mt-5 mb-5">
+        <p class="text-center display-5 fw-medium">BEST SELLER GROCERY</p>
+        <p class="lead fw-normal text-center">We provide you the mostly Sold best Grocery Items</p>
+        <div
+            class="row d-flex gy-3 row-cols-xl-4 row-cols-lg-3 row-cols-md-2 row-cols-1 justify-content-center flex-wrap ms-md-5 me-md-5 ms-1 me-1 mt-5">
+            <!-- nuts card -->
+            <div class="col text-center">
+                <div class="card border-0 grocery-card p-xl-5">
+                    <div class="card-img-top">
+                        <img class="img-fluid w-75 object-fit-contain" src="/Assets/grocery pics/nuts.png" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h3>Fresh Organic Nuts</h3>
+                        <p class="fs-5 mb-0"><small>Rate: </small>$20/kg</p>
+                        <div class="mt-0">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <button type="button"
+                            class="btn btn-outline-success rounded-pill p-2 ps-5 pe-5 mt-2 text-nowrap">Add to
+                            Cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- vegetable packet card -->
+            <div class="col text-center">
+                <div class="card border-0 grocery-card p-xl-5">
+                    <div class="card-img-top">
+                        <img class="img-fluid w-50 object-fit-contain"
+                            src="/Assets/grocery pics/bag-full-healthy-fruits-vegetables-13288318-removebg-preview.png"
+                            alt="">
+                    </div>
+                    <div class="card-body">
+                        <h3>Vegetable Package</h3>
+                        <p class="fs-5 mb-0"><small>Rate: </small>$120/kg</p>
+                        <div class="mt-0">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <button type="button"
+                            class="btn btn-light  bg-body-secondary  bg-opacity-100 rounded-pill p-2 ps-4 pe-4 mt-2">-
+                            <span class="ps-5 pe-5"> 1 </span> +</button>
+                    </div>
+                </div>
+            </div>
+            <!-- brockli card -->
+            <div class="col text-center">
+                <div class="card border-0 grocery-card p-xl-5">
+                    <div class="card-img-top">
+                        <img class="img-fluid w-50 object-fit-contain"
+                            src="/Assets/grocery pics/fresh-broccoli-vegetable.jpg" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h3>Fresh Brokli</h3>
+                        <p class="fs-5 mb-0"><small>Rate: </small>$20/kg</p>
+                        <div class="mt-0">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <button type="button"
+                            class="btn btn-light bg-body-secondary bg-opacity-100 rounded-pill p-2 ps-4 pe-4 mt-2">-
+                            <span class="ps-5 pe-5"> 1 </span> +</button>
+                    </div>
+                </div>
+            </div>
+            <!-- strawberry card -->
+            <div class="col text-center">
+                <div class="card border-0 grocery-card p-xl-5">
+                    <div class="card-img-top">
+                        <img class="img-fluid w-75 pt-xl-5 pt-4 object-fit-contain"
+                            src="/Assets/grocery pics/strawberry.png" alt="">
+                    </div>
+                    <div class="card-body mt-xl-2 mt-4">
+                        <h3>Fresh Strawberry</h3>
+                        <p class="fs-5 mb-0"><small>Rate: </small>$20/kg</p>
+                        <div class="mt-0">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <button type="button"
+                            class="btn btn-outline-success rounded-pill p-2 ps-5 pe-5 mt-2 text-nowrap">Add to
+                            Cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- pumegranate card -->
+            <div class="col text-center">
+                <div class="card border-0 grocery-card p-xl-5">
+                    <div class="card-img-top">
+                        <img class="img-fluid w-75 pt-5 object-fit-contain"
+                            src="/Assets/grocery pics/exotic-delicious-pomegranate-white-background.jpg" alt="">
+                    </div>
+                    <div class="card-body mt-2">
+                        <h3>Fresh Pumegranate</h3>
+                        <p class="fs-5 mb-0"><small>Rate: </small>$20/kg</p>
+                        <div class="mt-0">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <button type="button"
+                            class="btn btn-outline-success rounded-pill p-2 ps-5 pe-5 mt-2 text-nowrap">Add to
+                            Cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- ginger card -->
+            <div class="col text-center">
+                <div class="card border-0 grocery-card p-xl-5">
+                    <div class="card-img-top">
+                        <img class="img-fluid w-100 pt-4 object-fit-contain"
+                            src="/Assets/grocery pics/fresh-ginger-root.jpg" alt="">
+                    </div>
+                    <div class="card-body mt-xl-2 mt-3">
+                        <h3>Organic Ginger</h3>
+                        <p class="fs-5 mb-0"><small>Rate: </small>$20/kg</p>
+                        <div class="mt-0">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <button type="button"
+                            class="btn btn-outline-success rounded-pill p-2 ps-5 pe-5 mt-2 text-nowrap">Add to
+                            Cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- eggplant card -->
+            <div class="col text-center">
+                <div class="card border-0 grocery-card p-xl-5">
+                    <div class="card-img-top">
+                        <img class="img-fluid w-75 object-fit-contain" src="/Assets/grocery pics/eggplant.jpg" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h3>Fresh Eggplant</h3>
+                        <p class="fs-5 mb-0"><small>Rate: </small>$20/kg</p>
+                        <div class="mt-0">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <button type="button"
+                            class="btn btn-outline-success rounded-pill p-2 ps-5 pe-5 mt-2 text-nowrap">Add to
+                            Cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- coconut card -->
+            <div class="col text-center">
+                <div class="card border-0 grocery-card p-xl-5">
+                    <div class="card-img-top">
+                        <img class="img-fluid w-75 pt-5 object-fit-contain" src="/Assets/grocery pics/cocnut.png"
+                            alt="">
+                    </div>
+                    <div class="card-body mt-2">
+                        <h3>Fresh Coconut</h3>
+                        <p class="fs-5 mb-0"><small>Rate: </small>$20/kg</p>
+                        <div class="mt-0">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <button type="button"
+                            class="btn btn-outline-success rounded-pill p-2 ps-5 pe-5 mt-2 text-nowrap">Add to
+                            Cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- mangoes card -->
+            <div class="col text-center">
+                <div class="card border-0 grocery-card p-xl-5">
+                    <div class="card-img-top">
+                        <img class="img-fluid w-75 pt-5 object-fit-contain" src="/Assets/grocery pics/mango.png" alt="">
+                    </div>
+                    <div class="card-body mt-2">
+                        <h3>Sweet Mangoes</h3>
+                        <p class="fs-5 mb-0"><small>Rate: </small>$20/kg</p>
+                        <div class="mt-0">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <button type="button"
+                            class="btn btn-outline-success rounded-pill p-2 ps-5 pe-5 mt-2 text-nowrap">Add to
+                            Cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- eggs card -->
+            <div class="col text-center">
+                <div class="card border-0 grocery-card p-xl-5">
+                    <div class="card-img-top">
+                        <img class="img-fluid w-75 pt-5 object-fit-contain" src="/Assets/grocery pics/eggs.png" alt="">
+                    </div>
+                    <div class="card-body mt-2">
+                        <h3>Fresh Eggs</h3>
+                        <p class="fs-5 mb-0"><small>Rate: </small>$20/kg</p>
+                        <div class="mt-0">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <button type="button"
+                            class="btn btn-outline-success rounded-pill p-2 ps-5 pe-5 mt-2 text-nowrap">Add to
+                            Cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- vegetable basket card -->
+            <div class="col text-center">
+                <div class="card border-0 grocery-card p-xl-5">
+                    <div class="card-img-top">
+                        <img class="img-fluid w-75 pt-5 object-fit-contain" src="/Assets/grocery pics/vegebasket.png"
+                            alt="">
+                    </div>
+                    <div class="card-body mt-2">
+                        <h3>Vgegtable Basket</h3>
+                        <p class="fs-5 mb-0"><small>Rate: </small>$20/kg</p>
+                        <div class="mt-0">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <button type="button"
+                            class="btn btn-light  bg-body-secondary  bg-opacity-100 rounded-pill p-2 ps-4 pe-4 mt-2">-
+                            <span class="ps-5 pe-5"> 1 </span> +</button>
+                    </div>
+                </div>
+            </div>
+            <!-- redchilli card -->
+            <div class="col text-center">
+                <div class="card border-0 grocery-card p-xl-5">
+                    <div class="card-img-top">
+                        <img class="img-fluid w-75 pt-xl-5 pt-4 object-fit-contain"
+                            src="/Assets/grocery pics/redchilli.png" alt="">
+                    </div>
+                    <div class="card-body mt-xl-2 mt-lg-0 mt-4">
+                        <h3 class="pt-md-1 pt-lg-0">100% Dried Red Chilli</h3>
+                        <p class="fs-5 mb-0"><small>Rate: </small>$20/kg</p>
+                        <div class="mt-0">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <button type="button"
+                            class="btn btn-outline-success rounded-pill p-2 ps-5 pe-5 mt-2 text-nowrap">Add to
+                            Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- special offer -->
+
+    <div class="container-fluid specialoffer-bgimg">
+        <div class="col-xl-5 col-lg-6 col-md-8 text-center mt-lg-5 pt-xl-5">
+            <p class="display-5 fw-bold mt-xl-5 pt-xl-5">Weekly Special Offers on vegetable</p>
+            <button class="btn btn-dark p-2 ps-4 pe-4 rounded-pill" type="button">Shop Now</button>
+        </div>
+    </div>
+
+    <!-- 2nd grocery section -->
+
+    <div
+        class="row d-flex gy-3 row-cols-xl-4 row-cols-lg-3 row-cols-md-2 row-cols-1 justify-content-center flex-wrap ms-md-5 me-md-5 ms-1 me-1 mt-5">
+        <!-- nuts card -->
+        <div class="col text-center">
+            <div class="card border-0 grocery-card p-xl-5">
+                <div class="card-img-top">
+                    <img class="img-fluid w-75 object-fit-contain" src="/Assets/grocery pics/nuts.png" alt="">
+                </div>
+                <div class="card-body">
+                    <h3>Fresh Organic Nuts</h3>
+                    <p class="fs-5 mb-0"><small>Rate: </small>$20/kg</p>
+                    <div class="mt-0">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <button type="button"
+                        class="btn btn-outline-success rounded-pill p-2 ps-5 pe-5 mt-2 text-nowrap">Add to
+                        Cart</button>
+                </div>
+            </div>
+        </div>
+        <!-- vegetable packet card -->
+        <div class="col text-center">
+            <div class="card border-0 grocery-card p-xl-5">
+                <div class="card-img-top">
+                    <img class="img-fluid w-50 object-fit-contain"
+                        src="/Assets/grocery pics/bag-full-healthy-fruits-vegetables-13288318-removebg-preview.png"
+                        alt="">
+                </div>
+                <div class="card-body">
+                    <h3>Vegetable Package</h3>
+                    <p class="fs-5 mb-0"><small>Rate: </small>$120/kg</p>
+                    <div class="mt-0">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <button type="button"
+                        class="btn btn-light  bg-body-secondary  bg-opacity-100 rounded-pill p-2 ps-4 pe-4 mt-2">-
+                        <span class="ps-5 pe-5"> 1 </span> +</button>
+                </div>
+            </div>
+        </div>
+        <!-- brockli card -->
+        <div class="col text-center">
+            <div class="card border-0 grocery-card p-xl-5">
+                <div class="card-img-top">
+                    <img class="img-fluid w-50 object-fit-contain"
+                        src="/Assets/grocery pics/fresh-broccoli-vegetable.jpg" alt="">
+                </div>
+                <div class="card-body">
+                    <h3>Fresh Brokli</h3>
+                    <p class="fs-5 mb-0"><small>Rate: </small>$20/kg</p>
+                    <div class="mt-0">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <button type="button"
+                        class="btn btn-light bg-body-secondary bg-opacity-100 rounded-pill p-2 ps-4 pe-4 mt-2">-
+                        <span class="ps-5 pe-5"> 1 </span> +</button>
+                </div>
+            </div>
+        </div>
+        <!-- strawberry card -->
+        <div class="col text-center">
+            <div class="card border-0 grocery-card p-xl-5">
+                <div class="card-img-top">
+                    <img class="img-fluid w-75 pt-xl-5 pt-4 object-fit-contain"
+                        src="/Assets/grocery pics/strawberry.png" alt="">
+                </div>
+                <div class="card-body mt-xl-2 mt-4">
+                    <h3>Fresh Strawberry</h3>
+                    <p class="fs-5 mb-0"><small>Rate: </small>$20/kg</p>
+                    <div class="mt-0">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <button type="button"
+                        class="btn btn-outline-success rounded-pill p-2 ps-5 pe-5 mt-2 text-nowrap">Add to
+                        Cart</button>
+                </div>
+            </div>
+        </div>
+        <!-- pumegranate card -->
+        <div class="col text-center">
+            <div class="card border-0 grocery-card p-xl-5">
+                <div class="card-img-top">
+                    <img class="img-fluid w-75 pt-5 object-fit-contain"
+                        src="/Assets/grocery pics/exotic-delicious-pomegranate-white-background.jpg" alt="">
+                </div>
+                <div class="card-body mt-2">
+                    <h3>Fresh Pumegranate</h3>
+                    <p class="fs-5 mb-0"><small>Rate: </small>$20/kg</p>
+                    <div class="mt-0">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <button type="button"
+                        class="btn btn-outline-success rounded-pill p-2 ps-5 pe-5 mt-2 text-nowrap">Add to
+                        Cart</button>
+                </div>
+            </div>
+        </div>
+        <!-- ginger card -->
+        <div class="col text-center">
+            <div class="card border-0 grocery-card p-xl-5">
+                <div class="card-img-top">
+                    <img class="img-fluid w-100 pt-4 object-fit-contain"
+                        src="/Assets/grocery pics/fresh-ginger-root.jpg" alt="">
+                </div>
+                <div class="card-body mt-xl-2 mt-3">
+                    <h3>Organic Ginger</h3>
+                    <p class="fs-5 mb-0"><small>Rate: </small>$20/kg</p>
+                    <div class="mt-0">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <button type="button"
+                        class="btn btn-outline-success rounded-pill p-2 ps-5 pe-5 mt-2 text-nowrap">Add to
+                        Cart</button>
+                </div>
+            </div>
+        </div>
+        <!-- eggplant card -->
+        <div class="col text-center">
+            <div class="card border-0 grocery-card p-xl-5">
+                <div class="card-img-top">
+                    <img class="img-fluid w-75 object-fit-contain" src="/Assets/grocery pics/eggplant.jpg" alt="">
+                </div>
+                <div class="card-body">
+                    <h3>Fresh Eggplant</h3>
+                    <p class="fs-5 mb-0"><small>Rate: </small>$20/kg</p>
+                    <div class="mt-0">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <button type="button"
+                        class="btn btn-outline-success rounded-pill p-2 ps-5 pe-5 mt-2 text-nowrap">Add to
+                        Cart</button>
+                </div>
+            </div>
+        </div>
+        <!-- coconut card -->
+        <div class="col text-center">
+            <div class="card border-0 grocery-card p-xl-5">
+                <div class="card-img-top">
+                    <img class="img-fluid w-75 pt-5 object-fit-contain" src="/Assets/grocery pics/cocnut.png" alt="">
+                </div>
+                <div class="card-body mt-2">
+                    <h3>Fresh Coconut</h3>
+                    <p class="fs-5 mb-0"><small>Rate: </small>$20/kg</p>
+                    <div class="mt-0">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <button type="button"
+                        class="btn btn-outline-success rounded-pill p-2 ps-5 pe-5 mt-2 text-nowrap">Add to
+                        Cart</button>
+                </div>
+            </div>
+        </div>
+        <!-- mangoes card -->
+        <div class="col text-center">
+            <div class="card border-0 grocery-card p-xl-5">
+                <div class="card-img-top">
+                    <img class="img-fluid w-75 pt-5 object-fit-contain" src="/Assets/grocery pics/mango.png" alt="">
+                </div>
+                <div class="card-body mt-2">
+                    <h3>Sweet Mangoes</h3>
+                    <p class="fs-5 mb-0"><small>Rate: </small>$20/kg</p>
+                    <div class="mt-0">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <button type="button"
+                        class="btn btn-outline-success rounded-pill p-2 ps-5 pe-5 mt-2 text-nowrap">Add to
+                        Cart</button>
+                </div>
+            </div>
+        </div>
+        <!-- eggs card -->
+        <div class="col text-center">
+            <div class="card border-0 grocery-card p-xl-5">
+                <div class="card-img-top">
+                    <img class="img-fluid w-75 pt-5 object-fit-contain" src="/Assets/grocery pics/eggs.png" alt="">
+                </div>
+                <div class="card-body mt-2">
+                    <h3>Fresh Eggs</h3>
+                    <p class="fs-5 mb-0"><small>Rate: </small>$20/kg</p>
+                    <div class="mt-0">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <button type="button"
+                        class="btn btn-outline-success rounded-pill p-2 ps-5 pe-5 mt-2 text-nowrap">Add to
+                        Cart</button>
+                </div>
+            </div>
+        </div>
+        <!-- vegetable basket card -->
+        <div class="col text-center">
+            <div class="card border-0 grocery-card p-xl-5">
+                <div class="card-img-top">
+                    <img class="img-fluid w-75 pt-5 object-fit-contain" src="/Assets/grocery pics/vegebasket.png"
+                        alt="">
+                </div>
+                <div class="card-body mt-2">
+                    <h3>Vgegtable Basket</h3>
+                    <p class="fs-5 mb-0"><small>Rate: </small>$20/kg</p>
+                    <div class="mt-0">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <button type="button"
+                        class="btn btn-light  bg-body-secondary  bg-opacity-100 rounded-pill p-2 ps-4 pe-4 mt-2">-
+                        <span class="ps-5 pe-5"> 1 </span> +</button>
+                </div>
+            </div>
+        </div>
+        <!-- redchilli card -->
+        <div class="col text-center">
+            <div class="card border-0 grocery-card p-xl-5">
+                <div class="card-img-top">
+                    <img class="img-fluid w-75 pt-xl-5 pt-4 object-fit-contain" src="/Assets/grocery pics/redchilli.png"
+                        alt="">
+                </div>
+                <div class="card-body mt-xl-2 mt-lg-0 mt-4">
+                    <h3 class="pt-md-1 pt-lg-0">100% Dried Red Chilli</h3>
+                    <p class="fs-5 mb-0"><small>Rate: </small>$20/kg</p>
+                    <div class="mt-0">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <button type="button"
+                        class="btn btn-outline-success rounded-pill p-2 ps-5 pe-5 mt-2 text-nowrap">Add to
+                        Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- facilities -->
+
+    <div class="container-fluid mt-5">
+        <div class="row row-cols-xl-4 row-cols-md-2 row-cols-1 ms-md-5 me-md-5 gy-5">
+            <!-- shipping card -->
+            <div class="col text-center">
+                <div class="card border-0 facilities-card pt-5">
+                    <div class="card-img-top">
+                        <i class="bi bi-truck fs-1"></i>
+                    </div>
+                    <div class="card-body">
+                        <h3>Fast Free Shipping</h3>
+                        <p class="lead fw-normal">Around the World</p>
+                    </div>
+                </div>
+            </div>
+            <!-- support card -->
+            <div class="col text-center">
+                <div class="card border-0 facilities-card pt-5">
+                    <div class="card-img-top">
+                        <i class="bi bi-headset fs-1"></i>
+                    </div>
+                    <div class="card-body">
+                        <h3>24/7 Support</h3>
+                        <p class="lead fw-normal">COntact in 24 hours</p>
+                    </div>
+                </div>
+            </div>
+            <!-- moneyback card -->
+            <div class="col text-center">
+                <div class="card border-0 facilities-card pt-5">
+                    <div class="card-img-top">
+                        <i class="bi bi-cash-coin fs-1"></i>
+                    </div>
+                    <div class="card-body">
+                        <h3>100% Money Back</h3>
+                        <p class="lead fw-normal">Guranttee of money return</p>
+                    </div>
+                </div>
+            </div>
+            <!-- secure payment card -->
+            <div class="col text-center">
+                <div class="card border-0 facilities-card pt-5">
+                    <div class="card-img-top">
+                        <i class="bi bi-credit-card-2-front fs-1"></i>
+                    </div>
+                    <div class="card-body">
+                        <h3>100% Secure Payment</h3>
+                        <p class="lead fw-normal">Your payment is safe with us</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+
+    <div class="container-fluid mt-5 text-white bg-black pt-5 pb-5">
+        <div class="row ms-md-2 gy-5">
+            <!-- about Shop -->
+            <div class="col-lg-3 col-12">
+                <h3 class="mb-5">About EG Shop</h3>
+                <p class="lead fw-normal">EG STORE - worldwide Grocery store since 2021. We sale over 2000+ Category
+                    products on our web-site</p>
+                <div class="d-flex">
+                    <img><i class="bi bi-telephone-inbound fs-1"></i></img>
+                    <div class="ms-3">
+                        <p class="mb-0">+9234 5678123</p>
+                        <p class="mt-0">+9234 4565134</p>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <img><i class="bi bi-envelope fs-1"></i></img>
+                    <div class="ms-3">
+                        <p class="mb-0">info@gmail.com</p>
+                        <p class="mt-0">support@gmail.com</p>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <img><i class="bi bi-geo-alt fs-1"></i></img>
+                    <div class="ms-3 mt-1">
+                        <p>3102 Barlet Avenure <br> Southfield, MI 48075</p>
+                    </div>
+                </div>
+            </div>
+            <!-- search Items and links -->
+            <div class="col-lg-6 col-12 text-lg-center">
+                <img class="img-fluid w-25 object-fit-contain opacity-75" src="/Assets/webicon.png" alt="">
+                <p class="fs-5 fw-medium mt-3">Register Now To Get Updates On Promotions and Coupons.<br>Dont't Worry!
+                    It's Not
+                    Spam</p>
+                <div class="d-flex justify-content-lg-center mt-4">
+                    <input class="p-2 me-0 w-50" type="email" name="email" id="email" placeholder="Your Email">
+                    <button class="btn btn-success rounded-0 p-2 pe-4 ps-4 ms-0" type="submit" id="email">Send</button>
+                </div>
+                <div class="d-flex justify-content-lg-center mt-5">
+                    <a href="https://www.facebook.com"><i
+                            class="fa-brands fa-facebook-f border border-1 border-white rounded-circle p-1 pe-2 ps-2 me-4 object-fit-contain"
+                            style="color: #ffffff;"></i></a>
+                    <a href="https://www.instagram.com"><i
+                            class="fa-brands fa-instagram border border-1 border-white rounded-circle p-1 pe-2 ps-2 me-4 object-fit-contain"
+                            style="color: #ffffff;"></i></a>
+                    <a href="https://www.linkedin.com"><i
+                            class="fa-brands fa-linkedin-in border border-1 border-white rounded-circle p-1 pe-2 ps-2 me-4 object-fit-contain"
+                            style="color: #ffffff;"></i></a>
+                    <a href="https://www.twitter.com"><i
+                            class="fa-brands fa-twitter border border-1 border-white rounded-circle p-1 pe-2 ps-2 object-fit-contain"
+                            style="color: #ffffff;"></i></a>
+                </div>
+            </div>
+            <!-- company -->
+            <div class="col-lg-3 col-12">
+                <h3 class="mb-5">Company</h3>
+                <ul class="list-unstyled fs-5">
+                    <li class="pb-2">Privacy Policy</li>
+                    <li class="pb-2">Returns</li>
+                    <li class="pb-2">Terms & Conditions</li>
+                    <li class="pb-2">Our Support</li>
+                    <li class="pb-2">Terms & Services</li>
+                    <a class="text-decoration-none text-white" href="checkout.html">
+                        <li class="pb-2">Checkout</li>
+                    </a>
+                    <li class="pb-2">Other Issues</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer-end -->
+
+    <div class="container-fluid bg-black mb-0 pb-5 pt-3">
+        <p class="text-light ms-md-3 mb-4">Copyright 2021 EG-SHOP Grocery | Design by Egens Lab</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+</div>
