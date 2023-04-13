@@ -38,9 +38,16 @@
 
 /* why choose us */
 
+.choose-us-card-main{
+    height: 48vh !important;
+    box-shadow: 0px 0px 15px rgb(212, 210, 210);
+    position: relative;
+}
 .choose-us-card{
         box-shadow: 0px 0px 15px rgb(212, 210, 210);
         transition: 1s;
+        height: 44vh !important;
+        position: absolute;
 }
 .choose-us-card:hover{
     transform: scale(1.03);
