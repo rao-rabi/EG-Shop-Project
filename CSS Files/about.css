@@ -43,8 +43,7 @@
     position: relative;
 }
 .choose-us-card{
-        box-shadow: 0px 0px 15px rgb(212, 210, 210);
-        transition: 1s;
+        box-shadow:inset 0px 0px 15px rgb(212, 210, 210);
         position: absolute;
         display: flex;
         justify-content: center;
@@ -53,4 +52,7 @@
 .choose-us-card:hover{
     transform: scale(1.03);
     z-index: 3;
+    transition: all 1s ease-in-out !important;
+    background: linear-gradient(to left, rgb(255, 145, 0), rgb(30, 255, 0));
+    box-shadow: inset 350px 0 80px 0 background !important;
 }
