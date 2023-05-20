@@ -68,7 +68,12 @@
     transform: scale(1.07);
     z-index: 2;
 }
-
+.btn-special:hover {
+    transition: all 1s ease-in-out;
+    box-shadow: inset 140px 0 80px 0 #fc6c18;
+    color: rgb(42, 224, 5) !important;
+  
+}
 /* facilities */
 
 .facilities-card{
