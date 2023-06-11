@@ -106,6 +106,7 @@ background: url(/Assets/offer.png);
     object-fit: contain;
 }
 
+@media only screen and (max-width:767px) {
     
 #productsslide{
     /* width: 10vw !important; */
@@ -113,13 +114,15 @@ background: url(/Assets/offer.png);
     overflow: hidden;
 }
 
-#productsslide #pr-ro{
+#pr-ro{
     opacity: 0 !important;
     position: absolute;
-    transition: opacity 8s ease-in-out;
-    width: 100% !important;
+    top: 0;
+    transition: opacity 0.5s ease-in-out;
+    /* width: 100% !important; */
     height: 20% !important;
     object-fit: contain;
+}
 }
 
 /* #pr{
